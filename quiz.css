@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#quizApp {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    max-width: 80%;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+.wrong {
+    background-color: red;
+    color: white;
+}
+
+#resultContainer {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#score, #feedback {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#resultTitle {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+#nextButtonContainer {
+    text-align: center;
+}
+
+.next-button {
+    background-color: #009688; /* Green */
+    color: white;
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the button horizontally */
+}
